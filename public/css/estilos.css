@@ -1,0 +1,315 @@
+.drawBoxLeft{ 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 440px;
+  height: 260px;
+  padding: 20px;   
+}
+.drawBox{ 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 440px;
+  height: 260px;
+  padding: 20px;   
+}
+.logotipo{
+   color: #74CFE2;
+}
+.textoTitulos{
+   color: #FFD133;
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 23px;
+   font-family: 'Jura', sans-serif;
+}
+.tituloCentrado{
+   color: #FFD133;
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 25px;
+   font-family: 'Jura', sans-serif;
+}
+.textoContenido{
+   color: #000000;
+   font-weight: bold;
+   font-size: 18px;
+   font-family: 'Jura', sans-serif;
+   margin-left: 22px;
+}
+.textoContenido1{
+   color: #000000;
+   font-weight: bold;
+   font-size: 17px;
+   font-family: 'Jura', sans-serif;
+   margin-left: 22px;
+}
+.textoSlide {
+   margin-bottom: 50px; 
+   color: #FFE033;
+   font-weight: bold;
+   font-size: 30px;
+   font-family: 'Jura', sans-serif;
+ }
+
+.fondoHeader{
+background: rgba(4,78,130,1);
+background: -moz-linear-gradient(top, rgba(4,78,130,1) 0%, rgba(4,78,130,1) 88%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(4,78,130,1)), color-stop(88%, rgba(4,78,130,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(4,78,130,1) 0%, rgba(4,78,130,1) 88%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(4,78,130,1) 0%, rgba(4,78,130,1) 88%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(4,78,130,1) 0%, rgba(4,78,130,1) 88%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(4,78,130,1) 0%, rgba(4,78,130,1) 88%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044e82', endColorstr='#ffffff', GradientType=0 );
+}
+.fondoContent{
+   background: #fff;
+/* Poner imagen en el header
+width: 100%;
+background: url('/img/header.jpg') no-repeat;
+position: relative;
+*/
+}
+.fondoFooter{
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,78,130,1) 14%, rgba(4,78,130,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(14%, rgba(4,78,130,1)), color-stop(100%, rgba(4,78,130,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,78,130,1) 14%, rgba(4,78,130,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,78,130,1) 14%, rgba(4,78,130,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,78,130,1) 14%, rgba(4,78,130,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(4,78,130,1) 14%, rgba(4,78,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#044e82', GradientType=0 );
+
+}
+* {
+   margin:0;
+   padding:0
+}
+html,
+body,
+#wrap {
+   height: 100%;
+}
+body > #wrap {
+   height: auto;
+   min-height: 100%;
+}
+#content {
+   padding-bottom: 50px; /* Mis altura que el footer */
+} 
+#footer {
+   position: relative;
+   margin-top: -50px; /* Misma altura que el footer en negativo */
+   height: 50px; /* Altura del footer */
+   clear: both;
+}
+/*
+font-family: 'Ruda', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+/* Sección de modificación del menú */
+/* Modificacion de la NavBar para la página */
+nav.navbar ul.nav li {
+    color: #fff;
+}
+/* cambiar el color de fondo a la barra */
+nav.navbar{
+    background-color: transparent;
+    color: #000000;
+    border: 0;
+    margin-top: -5px;
+    margin-right: 2px;
+    margin-bottom: 0px; /* Margen cuando esta comprimido */
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Jura', sans-serif;*/
+    font-weight: light;
+    font-size: 19px;
+}
+.navbar-default .navbar-brand {
+  color: transparent; /* Color sección logotipo*/
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #555;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff; /* Color del texto en el menú*/
+}
+/* Cuando se pasa el mouse por encima */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFBD33;
+  background-color: transparent;
+}
+/* Definiendo color a botón de menú activo */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #74CFE2; /* Color del item activo */
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: transparent;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #fff;
+}
+
+.ajustarCaja {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+/*Footer*/
+footer {
+   width:100%;
+   float:left;
+   clear:both;
+   box-shadow:0px 2px 2px #000;
+      -moz-box-shadow:0px 2px 2px #000;
+      -webkit-box-shadow:0px 2px 2px #000;
+   border-radius:5px;
+      -moz-border-radius:5px; 
+      -webkit-border-radius:5px;
+   background: #2f2f2f; /* Old browsers */
+background: -moz-linear-gradient(top,  #2f2f2f 0%, #242424 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f2f2f), color-stop(100%,#242424)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #2f2f2f 0%,#242424 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+}
+ 
+footer section {
+   width:400px;
+   float:left;
+   padding:20px;
+}
+ 
+footer #acerca-de {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size:14px;
+   color:#fff;
+   text-align:justify;
+   line-height:20px;
+}
+ 
+footer #acerca-de h3 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size:20px;
+   color:#FFBD33;
+   margin-bottom:5px;
+}
+ 
+footer #redes-s > div {
+   width:100px;
+   height:70px;
+   color: #fff;
+   float:left;
+   background:#ff8000;
+   opacity:0.5;
+}
+ 
+footer #redes-s > div a {
+   width:100px;
+   height:60px;
+   display:inline-block;
+}
+ 
+footer #redes-s .email {
+   background:url(../img/gmail.png) no-repeat; 
+   margin-bottom:15px;
+   margin-top: 10px;
+}
+  
+footer #redes-s .facebook {
+   background:url(../img/facebook.png) no-repeat;
+   margin-top: 10px;
+}
+ 
+footer #redes-s > div:hover {
+   opacity:1;
+}
+ 
+#copyright {
+   float:left;
+   width:100%;
+   margin:10px 0px;
+}
+ 
+#copyright p {
+   text-align:center;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size:12px;
+   font-weight: bold;
+   color:#0000;
+}
+.integrantes {
+ /* border-radius:5px; */
+  margin: 2px;
+  height: 20%;
+  box-shadow:0px 2px 2px #eee;
+    -moz-box-shadow:0px 2px 2px #eee;
+    -webkit-box-shadow:0px 2px 2px #eee;
+  border-color: #000;
+  border-style: solid;
+  border-radius:5px;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px;
+  background: #fff; /* Old browsers */
+
+}
+.integrantes .img {
+  top: 50%;
+}
+
+.centrarDiv {
+    float: none;
+    margin: 0 auto;
+}
+#particles-js {
+  width: 100%;
+  height:100%;
+  position: fixed;
+  background:rgba(255,255,255,.8);
+}
+
+.proyectos {
+  margin: 2px;
+  box-shadow:0px 2px 2px #eee;
+    -moz-box-shadow:0px 2px 2px #eee;
+    -webkit-box-shadow:0px 2px 2px #eee;
+  border-color: #000;
+  border-style: solid;
+  border-radius:5px;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px;
+  background: transparent; /* Old browsers */
+}
+.proyectos:hover {
+  background:rgba(238,238,14,.5);
+}
