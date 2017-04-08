@@ -1,7 +1,4 @@
-
-@section('pie')
-
-<br>
+  <br>
     <footer class="fondoFooter">
       <section id="acerca-de">
         <article>
@@ -37,5 +34,3 @@
     </footer>
 
     <div id="copyright"><p>Copyright 2017. TEIPRO Colombia SAS</p></div>
-
-@endsection

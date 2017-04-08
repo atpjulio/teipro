@@ -32,6 +32,7 @@
       				<div class="carousel-caption">
       					<div class="col-sm-3 textoSlide">
         					Mantenimiento Electrónico
+                  <br><br><br><br><br>
         				</div>
       				</div>
     			</div>

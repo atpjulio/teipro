@@ -23,6 +23,7 @@
 				sistemas electrónicos complejos. <br>
 			•	Fabricación de tarjetas electrónicas y componentes no comerciales. <br>
 			•	Montaje de Infraestructura tecnológica y de telecomunicaciones.
+			<img src="img/mantenimiento.jpg" class="img-responsive img-rounded">		
 		</div>
 	</div>
 
@@ -33,6 +34,7 @@
 			•	Planes graduales de automatización.<br>
 			•	Repotenciación electrónica de maquinaria obsoleta.<br> 
 			•	 Control, instrumentación y telemetría de variables del proceso industrial (presión, temperatura, proximidad, humedad, nivel, entre otros). 
+			<img src="img/automatizacion.jpg" class="img-responsive img-rounded">
 		</div> 
 	</div>
 
@@ -42,6 +44,7 @@
 			•	Diseño de productos y servicios basados en TIC, GIS, robótica, energías alternativas y nuevos materiales. <br>
 			•	Proyectos para apropiación social de las TIC. <br>
 			•	Comercialización de dispositivos electrónicos.
+			<img src="img/tecnologias.jpg" class="img-responsive img-rounded">
 		</div>
 	</div>
 
