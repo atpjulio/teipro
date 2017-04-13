@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.header')
 
 @section('titulo')
 {{ 'Soluciones | TEIPRO' }}
@@ -12,7 +12,7 @@
 @section('menu6'){{ '' }} @endsection
 
 @section('contenido')
-<div class="container row">
+<div class="container-fluid row">
 	<div class="text-center tituloCentrado">
 		Soluciones TEIPRO Colombia
 	</div>

@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.header')
 
 @section('titulo')
 {{ 'Contactenos | TEIPRO' }}
@@ -12,54 +12,11 @@
 @section('menu6'){{ 'active' }} @endsection
 
 @section('contenido')
-<div class="container row">
+<div class="container-fluid row">
 	<div class="text-center tituloCentrado">
 		Contáctenos TEIPRO Colombia
 	</div>
-	<div class="col-sm-8">
-    <br>
-    <br>
-		<form class="form-horizontal">
-  			<div class="form-group">
-    			<label for="inputNombre" class="col-sm-3 control-label textoContenido">Nombre y Apellido</label>
-    			<div class="col-sm-7">
-    				<input type="text" class="form-control" id="inputUsuario" placeholder="Nombre y Apellido">
-    			</div>
-        </div>
-        <div class="form-group">
-    			<label for="inputEmail" class="col-sm-3 control-label textoContenido">E-mail</label>
-    			<div class="col-sm-7">
-	    			<input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@tucorreo.com">
-	    		</div>
-        </div>
-        <div class="form-group">
-    			<label for="inputNombre" class="col-sm-3 control-label textoContenido">Celular</label>
-    			<div class="col-sm-7">
-    				<input type="text" class="form-control" id="inputUsuario" placeholder="300-0000000">
-    			</div>
-  			</div>
-  			<div class="form-group">
-    			<label for="inputAsunto" class="col-sm-3 control-label textoContenido">Asunto</label>
-    			<div class="col-sm-7">
-	    			<input type="text" class="form-control" id="inputAsunto" placeholder="Asunto">
-	    		</div>
-  			</div>
-  			<div class="form-group">
-    			<label for="inputMensaje" class="col-sm-3 control-label textoContenido">Mensaje</label>
-    			<div class="col-sm-7">
-	    			<textarea class="form-control" rows="3" id="inputMensaje" placeholder="Cuéntanos tu consulta">
-            </textarea>
-	    		</div>
-  			</div>
-  			<div class="form-group">
-  				<div class="col-sm-offset-6 col-sm-10">
-					<button type="button" class="btn btn-success">Enviar</button>
-				</div>
-  			</div>
-		</form>				
-	</div>
-  <div class="col-sm-4">
-    <img src="img/logo_original.png" class="img-responsive" alt="">
+	<div class="col-sm-4">
     <div class="tituloCentrado">
       TEIPRO COLOMBIA SAS
     </div>
@@ -67,7 +24,7 @@
       TEIPRO COLOMBIA SAS<br>
       NIT: 901031607 – 1 Régimen Común<br>
       DIRECCIÓN: Calle 69F N 41-105 – Barranquilla. Tel.: 3694381<br>
-      EMAIL: teiprocolombia@gmail.com
+      EMAIL: <a href="mailto:director@teipro.com.co" style="color:black;">director@teipro.com.co</a>
     </div>
     <div class="tituloCentrado">
       Director de Proyectos
@@ -77,7 +34,11 @@
       M.Sc con énfasis en Automatización, Robótica y Control<br>
       CEL: (+57) 3014442104
     </div>
-  </div>
+    <br><br>
+    <img src="img/logoTeipro.png" class="center-block" alt="" height="80">
+	</div>
+  <div class="col-sm-8">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6668286727254!2d-74.80726868590455!3d10.988501058249774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d12a5d98ed7%3A0xa64f01eee7e0c333!2sCl.+69f+%2341-105%2C+Barranquilla%2C+Atl%C3%A1ntico%2C+Colombia!5e0!3m2!1sen!2ses!4v1492036411291" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 </div>
 
 @endsection

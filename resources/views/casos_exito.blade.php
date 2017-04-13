@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.header')
 
 @section('titulo')
 {{ 'Casos de Exito | TEIPRO' }}
@@ -36,11 +36,11 @@
 @endsection
 
 @section('contenido')
-<div class="container row">
+<div class="container-fluid" >
+
 	<div class="text-center tituloCentrado">
 		Casos de Éxito
 	</div>
-	<div id="particles-js"></div>
 	
 	<div id="previa">
 		<div>
@@ -48,16 +48,18 @@
 		</div>
 	</div>
 
-	<div class="row container" id="contenedor">
-		<div class="col-sm-offset-3 col-sm-5 proyectos" id="proyecto1">
-			<img src="img/proyecto1.jpg" class="img-responsive col-sm-4" alt="proyecto1">
-			Reparación Máquina de Corte Directo
-		</div>
-		<div class="col-sm-offset-3 col-sm-5 proyectos" id="proyecto2">
-			<img src="img/proyecto2.jpg" class="img-responsive col-sm-4" alt="proyecto2">
-			Adaptación de Montaje de Corte Directo marca ELE a GEODATALOG Series 2000 
-		</div>
-	</div>		
+	<div id="particles-js">
+		<div class="row" id="contenedor">
+			<div class="col-sm-6 proyectos" id="proyecto1">
+				<img src="img/proyecto1.jpg" class="img-responsive col-sm-4" alt="proyecto1">
+				Reparación Máquina de Corte Directo
+			</div>
+			<div class="col-sm-6 proyectos" id="proyecto2">
+				<img src="img/proyecto2.jpg" class="img-responsive col-sm-4" alt="proyecto2">
+				Adaptación de Montaje de Corte Directo marca ELE a GEODATALOG Series 2000 
+			</div>
+		</div>		
+	</div>
 	
 
 </div>

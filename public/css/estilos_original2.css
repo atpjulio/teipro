@@ -26,9 +26,12 @@ body > #wrap {
   margin: auto;
 }
 #content {
-  padding-bottom: 102px; /* Misma altura que el footer */
+   padding-bottom: 102px; /* Misma altura que el footer */
 } 
 #footer {
+  clear: both;
+  position: inherit;
+  height: 50px; /* Altura del footer */
   width: 90%;
   max-width: 1000px;
   margin: auto;
@@ -124,12 +127,18 @@ header .logo {
    font-size: 20px;
    font-family: 'Fira Sans', sans-serif;
  }
+/*
+font-family: 'Ruda', sans-serif;
+font-family: 'Jura', sans-serif;
+*/
+
 /****************************************************************/
 /* Sección del Footer */
 /****************************************************************/
 footer {
    width:100%;
    float:left;
+   clear:both;
    box-shadow:0px 2px 2px #000;
       -moz-box-shadow:0px 2px 2px #000;
       -webkit-box-shadow:0px 2px 2px #000;
@@ -218,36 +227,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /****************************************************************/
 /* Sección de Equipo */
 /****************************************************************/
-.carousel-caption h3{
-    float: center;
-    margin-bottom: 110px; 
-    color: #255D98;
-    font-weight: bold;
-    font-size: 45px;
-    font-family: 'Fira Sans', sans-serif;
-    text-shadow:
-   -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-   -1px 1px 0 #fff,
-    1px 1px 0 #fff;
-}
-
-/****************************************************************/
-/* Sección de Equipo */
-/****************************************************************/
-.ui-accordion {
+.integrantes {
+  margin: 2px;
+  height: 20%;
+  box-shadow:0px 2px 2px #eee;
+    -moz-box-shadow:0px 2px 2px #eee;
+    -webkit-box-shadow:0px 2px 2px #eee;
+  border-color: #000;
+  border-style: solid;
+  border-radius:5px;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px;
+  background: #fff; /* Old browsers */
   font-family: 'Fira Sans', sans-serif;
-
+}
+.integrantes .img {
+  top: 50%;
 }
 
-.ui-accordion .ui-accordion-header-active {
-  background: #255D98;
+.centrarDiv {
+    margin: 0 auto;
 }
-
-.ui-accordion .ui-accordion-header-collapsed {
-  background: #BEDEEF;
-}
-
 /****************************************************************/
 /* Sección de Casos de Éxito */
 /****************************************************************/
